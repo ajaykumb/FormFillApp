@@ -3,15 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5">
+
   <display-name>Webapp</display-name>
-  <!--
+
+  <!-- RegisterServlet -->
   <servlet>
-  <servlet-name>HelloWorldExample</servlet-name>
-  <servlet-class>com.example.HelloWorldExample</servlet-class>
+      <servlet-name>RegisterServlet</servlet-name>
+      <servlet-class>com.example.servlet.RegisterServlet</servlet-class>
   </servlet>
+
   <servlet-mapping>
-  <servlet-name>HelloWorldExample</servlet-name>
-  <url-pattern>/hello</url-pattern>
+      <servlet-name>RegisterServlet</servlet-name>
+      <!-- form action in index.jsp points here -->
+      <url-pattern>/action_page.php</url-pattern>
   </servlet-mapping>
-  -->
+
 </web-app>
+
