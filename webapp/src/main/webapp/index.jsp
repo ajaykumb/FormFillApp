@@ -1,16 +1,16 @@
-<form action="action_page.php">
+<form action="action_page.php" method="post">
   <div class="container">
-    <h1>Welcome!! AJAY KUMAR BEHERA  Registration Form!!</h1>
+    <h1>Welcome!! AJAY KUMAR BEHERA Registration Form!!</h1>
     <p>Please fill in this form for registration!!</p>
     <hr>
-    <br>  
+    <br>
 
-    <label for="email"><b>EMAIL_NAME</b></label>
+    <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
     <br>
 
-    <label for="name"><b>name</b></label>
-    <input type="text" placeholder="Enter name" name="name" id="name" required>
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" id="name" required>
     <br>
 
     <label for="psw"><b>Password</b></label>
@@ -29,3 +29,4 @@
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 </form>
+
