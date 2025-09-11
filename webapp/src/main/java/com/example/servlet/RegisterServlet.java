@@ -29,7 +29,9 @@ public class RegisterServlet extends HttpServlet {
 
             int rows = stmt.executeUpdate();
             if (rows > 0) {
-                out.println("<h2>Registration Successful!</h2>");
+                String encodedName = URLEncoder.encode(name, "UTF-8");
+                response.sendRedirect("welcome.jsp?user=" + encodedName);
+
             } else {
                 out.println("<h2>Registration Failed!</h2>");
             }
