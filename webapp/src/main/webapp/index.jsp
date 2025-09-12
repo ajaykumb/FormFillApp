@@ -55,7 +55,7 @@
 </head>
 <body>
 
-<form action="action_page.jsp" method="post">
+<form action="welcome.jsp" method="post">
   <div class="container">
     <h1>Welcome!! Ajay Kumar Behera Registration Form!!</h1>
     <p>Please fill in this form for registration!!</p>
